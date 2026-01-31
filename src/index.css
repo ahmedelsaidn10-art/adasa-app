@@ -1,0 +1,425 @@
+/* tixt شويه الوان سواء كانت خلفيه او لون  */
+.bg-dark161 {
+  background-color: #242323;
+}
+
+.bg-orange {
+  background-color: #ED5E0E;
+}
+
+.text-orange {
+  color: #ED5E0E;
+}
+
+.bg-orange-transparent {
+  background-color: rgba(237, 94, 14, 0.25);
+}
+
+
+
+.bg-orange-soft {
+  background-color: rgba(237, 96, 14, 0.411);
+}
+
+.bg-dark-transparent {
+  background-color: rgba(21, 21, 20, 0.788);
+}
+
+.bg-black-solid {
+  background-color: #111111;
+}
+
+.bg-dark-solid {
+  background-color: #1d1b1b;
+}
+
+/* NavLink ده لون ال  */
+
+.active{
+  background-color: #ED5E0E;
+  padding: 8px;
+  border-radius: 20px;
+  color: white !important;
+}
+
+
+
+
+/* ده معروف بتاع اي */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/*  ودي شويه مقاسات و مسافات */
+
+.img_logo {
+  width: 45px;
+}
+
+.fs-7 {
+  font-size: 0.7rem;
+}
+
+
+.my_fs-1 {
+  font-size: calc(3.3rem + 1.5vw) !important;
+  line-height: 100px;
+}
+
+.my_fs-2 {
+  font-size: calc(2.5rem + 1.5vw) !important;
+  line-height: 100px;
+}
+
+.my-top{
+   top: 14%
+}
+
+/* دي الخلفيه الي هيا المربعات و جبتها من شات جيبتي  */
+.home {
+  background-color: #0B0B0A;
+  background-image:
+    linear-gradient(#ffffff1a 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff1a 1px, transparent 1px);
+  background-size: 60px 60px;
+
+}
+
+
+/* ده انيميشن   */
+.cta-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-6px);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+
+.cta-btn:hover .arrow-icon {
+  transform: translateX(-6px);
+}
+
+.hover-scale {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+.category-card {
+  cursor: pointer;
+}
+
+.my_icon_nav:hover {
+  color: #ED5E0E !important;
+}
+
+
+.category-card:hover {
+  background: linear-gradient(135deg,
+      #ED5E0E,
+      #ff8c42);
+  border-color: transparent;
+}
+
+
+.category-card:hover h3,
+.category-card:hover p {
+  color: #fff !important;
+}
+
+
+.category-card i {
+  color: #ED5E0E;
+}
+
+.category-card:hover i {
+  color: #fff;
+}
+
+
+.category-card:hover .icon-box {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+/* home  ده الشغل الي متعلق بي الكارد الي في ال  */
+
+.featured-card {
+  cursor: pointer;
+  background: #161616;
+  border-radius: 24px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-card:hover {
+  border-color: #ED5E0E;
+}
+
+.featured-card:hover .read-more .arrow-icon {
+  transform: translateX(-6px);
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform 0.5s ease;
+}
+
+.featured-card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+.featured-card h2 {
+  transition: color 0.3s ease;
+}
+
+.featured-card:hover h2 {
+  color: #ED5E0E;
+}
+
+
+/* home ده تاني شكل في كارد ال */
+
+.single-post-card {
+  background: #0f0f0f;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #fff;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.post-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.post-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.single-post-card:hover .post-image img {
+  transform: scale(1.08);
+}
+
+.post-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.post-content {
+  padding: 18px;
+}
+
+.post-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.post-desc {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.7;
+}
+
+.post-footer {
+  padding: 16px 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(237, 94, 14, 0.15);
+  border: none;
+  color: #ED5E0E;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-size: 14px;
+}
+
+.author-job {
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+
+/* وده شغل الانيميشن بتاعو */
+
+
+.single-post-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.single-post-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+}
+
+.single-post-card:hover .post-title {
+  color: #ED5E0E;
+}
+
+.arrow-btn {
+  transition: all 0.3s ease;
+  background: rgba(237, 94, 14, 0.15);
+  color: #ED5E0E;
+}
+
+.single-post-card:hover .arrow-btn {
+  background: #ED5E0E;
+  color: #fff;
+}
+
+
+/* input  ده شكل لي ال   */
+
+.dark-input {
+  background-color: #0f0f0f;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.dark-input::placeholder {
+  color: #aaaaaa;
+  opacity: 0.7;
+}
+
+.dark-input:focus {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  border-color: #ff9800;
+  box-shadow: 0 0 0 0.25rem rgba(255, 152, 0, 0.35);
+}
+
+
+
+/* footer لينكات ال  */
+.social-link {
+  background-color: #1a1a1a;
+  color: #aaa;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: #ED5E0E;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+/* footer */
+
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 2px;
+  background-color: orange;
+}
+
+.nav-links a li {
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover li {
+  color:  #ED5E0E!important ;
+  transform: translateY(-3px);
+}
+
+
+
+
+
+.btn-outline-warning {
+    --bs-btn-color: #ED5E0E;
+    --bs-btn-border-color: #ED5E0E;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #ED5E0E;
+    --bs-btn-hover-border-color: #ED5E0E;
+}
+
+
+
+.active-filter {
+  background-color: #ED5E0E !important;
+  color: white !important;
+  border-color: #ED5E0E !important;
+}
